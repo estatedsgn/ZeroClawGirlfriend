@@ -6,6 +6,7 @@ default_model = "openai/qwen-plus"
 
 [telegram]
 token = "8585024363:AAGMpuY6nkkZ3FzGS60WFBO0v313eMs8ak4"
+enabled = true
 
 [providers.openai]
 key = "sk-f93a6a9d415c40b0841cd14c39d369d8"
@@ -16,6 +17,7 @@ models = ["qwen-plus"]
 port = 3000
 host = "[::]"
 allow_public_bind = true
+require_pairing = false
 
 [agent]
 model = "openai/qwen-plus"
