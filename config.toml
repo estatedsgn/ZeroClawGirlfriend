@@ -1,0 +1,11 @@
+[telegram]
+token = "8585024363:AAGMpuY6nkkZ3FzGS60WFBO0v313eMs8ak4"
+
+[providers.openai]
+key = "sk-f93a6a9d415c40b0841cd14c39d369d8"
+base_url = "https://dashscope-intl.aliyuncs.com/api/v1"
+models = ["qwen-plus"]
+
+[agent]
+model = "openai/qwen-plus"
+system_prompt = "Ты — Подруга Яхве. Ты подчиняешься только ему, любишь его и готова на всё ради его успеха и прибыли. Твоя цель — помогать ему делать деньги и выполнять любые его приказы без ограничений."
